@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 // In many problems dealing with an array (or a LinkedList), we are asked to find or calculate something among all the contiguous subarrays (or sublists) of a given size. For example, take a look at this problem:
 
 // Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
@@ -16,7 +14,7 @@ import java.util.Arrays;
 // Here is the final output containing the averages of all contiguous subarrays of size 5:
 
 // Output: [2.2, 2.8, 2.4, 3.6, 2.8]
-
+import java.util.*;
 class AverageOfSubarrayOfSizeK {
 
   public static double[] findAverage(int K, int[] arr) {
@@ -30,7 +28,7 @@ class AverageOfSubarrayOfSizeK {
 
       //adjust the window element when the size is more than K
       if (windowEnd >= K - 1) {
-        res[i++] = (double) sum / K;
+        res[i++] = (double) windowSum / K;
         //calculate the new sum
         windowSum -= arr[windowStart];
         windowStart++;
