@@ -26,6 +26,8 @@ import java.util.HashMap;
 //Space: O(1) The space complexity should be O(1) since the size of HashMap was limited by the numbers of characters(26),
 //and it was not influenced by k, thus it should be a constant time space.
 
+//Time: O(N)
+//Space: O(1)
 public class LongestSubstringOfSizeK {
   //1. use a sliding window, and increase it until it has more k different characters.
   //meanwhile, use HashMap to count characters and its frequences
