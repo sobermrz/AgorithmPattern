@@ -68,6 +68,8 @@ public class NoRepeatSubstring {
     System.out.println(res3);
     int res4 = NoRepeatSubstring.findLength("abcdefg");
     System.out.println(res4);
+    int res5 = NoRepeatSubstring.findLength("abccdea");
+    System.out.println(res5);
   }
   
 }
