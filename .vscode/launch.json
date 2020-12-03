@@ -1,0 +1,68 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MiddleOfTheLinkedList",
+      "request": "launch",
+      "mainClass": "MiddleOfTheLinkedList",
+      "projectName": "Grokking_the_coding_interview_99f66ae4"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ListListCycle2",
+      "request": "launch",
+      "mainClass": "ListListCycle2",
+      "projectName": "Grokking_the_coding_interview_99f66ae4"
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "${command:pickProcess}"
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "${command:pickProcess}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DutchFlag<Grokking_the_coding_interview_99f66ae4>",
+      "request": "launch",
+      "mainClass": "DutchFlag",
+      "projectName": "Grokking_the_coding_interview_99f66ae4"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LinkedListCycle<Grokking_the_coding_interview_99f66ae4>",
+      "request": "launch",
+      "mainClass": "LinkedListCycle.LinkedListCycle",
+      "projectName": "Grokking_the_coding_interview_99f66ae4"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-TripletSumToZero<Grokking_the_coding_interview_99f66ae4>",
+      "request": "launch",
+      "mainClass": "TripletSumToZero",
+      "projectName": "Grokking_the_coding_interview_99f66ae4"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-TripletsWithSimilarSum<Grokking_the_coding_interview_99f66ae4>",
+      "request": "launch",
+      "mainClass": "TripletsWithSimilarSum",
+      "projectName": "Grokking_the_coding_interview_99f66ae4"
+    }
+  ]
+}
